@@ -1,7 +1,5 @@
 <h2 align="centre">Music Play Bot 🎵</h2>
 
-### Latest Repo [Here](https://github.com/Infinity-Bots/GroupMusicPlayerBot)
-
 <p align="center">
   <img src="https://telegra.ph/file/e1d2e60a756b2cda8a058.jpg">
 </p>
@@ -30,9 +28,9 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ImJanindu/GroupMusicBot)
 
-Get pyrogram STRING_NAME from here ⬇️
+Use [@StringSessionGeneratorRobot](https://t.me/StringSessionGeneratorRobot) to get pyrogram string session
 
-[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@SpEcHiDe/GenerateStringSession)
+### Latest Repo [Here](https://github.com/Infinity-Bots/GroupMusicPlayerBot)
 
 ### Credits
 
