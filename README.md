@@ -1,6 +1,6 @@
 <h2 align="centre">Music Play Bot 🎵</h2>
 
-### Here the advanced branch with more features 🙂
+### Latest Repo [Here](https://github.com/Infinity-Bots/GroupMusicPlayerBot)
 
 <p align="center">
   <img src="https://telegra.ph/file/e1d2e60a756b2cda8a058.jpg">
