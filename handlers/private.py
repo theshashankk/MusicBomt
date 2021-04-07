@@ -22,14 +22,14 @@ Add me to your group and play music freely!**
                         "🛠 Source Code 🛠", url="https://github.com/theshashankk/NubIshika")
                   ],[
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/InfinityBOTs_Support"
+                        "Creator", url="https://t.me/Theshashank"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Infinity_BOTs"
+                        "Creator Ki Jaan", url="https://t.me/cutie1145"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/JEGroupMusicPlayerBot?startgroup=true"
+                        "➕ Add To Your Group ➕", url="https://t.me/The_Shashankmusicbot?startgroup=true"
                     )]
             ]
         ),
@@ -43,7 +43,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Infinity_BOTs")
+                        "Group", url="https://t.me/Global_friends_chatting_group")
                 ]
             ]
         )
