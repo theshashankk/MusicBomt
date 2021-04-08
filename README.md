@@ -1,6 +1,6 @@
 ![Music Bot](https://telegra.ph/file/0708a712dfe4fde8bf4ec.jpg)
 <h2 align="centre">Music Play Bot 🎵</h2>
-img=https://telegra.ph/file/0708a712dfe4fde8bf4ec.jpg
+
 <h3>Requirements 📝</h3>
 
 - FFmpeg
