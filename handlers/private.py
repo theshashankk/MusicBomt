@@ -1,52 +1,55 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
-from config import BOT_NAME as bn
-from helpers.filters import other_filters2
 
-
-@Client.on_message(other_filters2)
-async def start(_, message: Message):
-    await message.reply_sticker("AAMCAQADGQEAAQktfmBtezibMP9_oZV8zIp6SxncLhliAAJxAgAC84cJRaIKTccldi4Qmd6ZTBcAAwEAB20AAzRMAAIeBA")
+@Client.on_message(
+    filters.command("start")
+    & filters.private
+    & ~ filters.edited
+)
+async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""**Hey, I'm {bn} 🎵
-
-I can play music in your group's voice call. Developed by [The Shashank](https://t.me/TheShashank).
-
-Add me to your group and play music freely!**
-        """,
+        f"""<b>👋🏻 Hi {message.from_user.first_name}!</b>
+I am Music Player, an open-source bot that lets you play music in your Telegram groups.
+Use the buttons below to know more about me.""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🛠 Source Code 🛠", url="https://github.com/theshashankk/NubIshika")
-                  ],[
-                    InlineKeyboardButton(
-                        "Creator", url="https://t.me/Theshashank"
-                    ),
-                    InlineKeyboardButton(
-                        "Creator Ki Jaan", url="https://t.me/cutie1145"
+                        "⚒COMMANDS", url="https://telegra.ph/MusicBot-Robot-MusicBot-Robo-03-14"
                     )
-                ],[ 
-                    InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/The_Shashankmusicbot?startgroup=true"
-                    )]
-            ]
-        ),
-     disable_web_page_preview=True
-    )
-
-@Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
-async def gstart(_, message: Message):
-      await message.reply_text("""**Group Music Player Online ✅**""",
-      reply_markup=InlineKeyboardMarkup(
-            [
+                ],
                 [
                     InlineKeyboardButton(
-                        "Group", url="https://t.me/Global_friends_chatting_group")
+                        "My CREATOR ☺️", url="https://t.me/OfficiaI_Arsh_Owner"
+                    ),
+                    InlineKeyboardButton(
+                        "Add Me To Group", url="https://t.me/Arsh_MusicBot?startgroup=true"
+                    )
                 ]
             ]
         )
-   )
+    )
 
 
+@Client.on_message(
+    filters.command("start")
+    & filters.group
+    & ~ filters.edited
+)
+async def start(client: Client, message: Message):
+    await message.reply_text(
+        "💁🏻‍♂️ Do you want to search for a YouTube video?",
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        "✅ Yes", switch_inline_query_current_chat=""
+                    ),
+                    InlineKeyboardButton(
+                        "No ❌", callback_data="close"
+                    )
+                ]
+            ]
+        )
+    )
