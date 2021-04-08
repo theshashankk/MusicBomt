@@ -24,7 +24,7 @@ Use the buttons below to know more about me.""",
                         "My CREATOR ☺️", url="https://t.me/BLSPRAYGOD"
                     ),
                     InlineKeyboardButton(
-                        "Add Me To Group", url="https://t.me/Arsh_MusicBot?startgroup=true"
+                        "Add Me To Group", url="https://t.me/SPRAYGOD_VC_BOT?startgroup=true"
                     )
                 ]
             ]
