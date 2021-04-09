@@ -21,10 +21,10 @@ Use the buttons below to know more about me.""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "My CREATOR ☺️", url="https://t.me/BLSPRAYGOD"
+                        "My CREATOR ☺️", url="https://t.me/OfficiaI_Arsh_Owner"
                     ),
                     InlineKeyboardButton(
-                        "Add Me To Group", url="https://t.me/SPRAYGOD_VC_BOT?startgroup=true"
+                        "Add Me To Group", url="https://t.me/ARSH_VC_BOT?startgroup=true"
                     )
                 ]
             ]
