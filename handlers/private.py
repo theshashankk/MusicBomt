@@ -20,7 +20,7 @@ Use the buttons below to know more about me..""",
             [
                 [
                     InlineKeyboardButton(
-                       "Official Group", url="https://t.me/wearefriendscircle"
+                       "🎛️ Music World 🎛️", url="https://t.me/wearefriendscircle"
                     )
                 ],
                 [
