@@ -16,15 +16,15 @@ Use the buttons below to know more about me.""",
             [
                 [
                     InlineKeyboardButton(
-                        "⚒COMMANDS", url="https://telegra.ph/MusicBot-Robot-MusicBot-Robo-03-14"
+                       "Official Group", url="https://t.me/wearefriendscircle"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "My CREATOR ☺️", url="https://t.me/OfficiaI_Arsh_Owner"
+                        "My CREATOR ☺️", url="https://t.me/idanishbaba"
                     ),
                     InlineKeyboardButton(
-                        "Add Me To Group", url="https://t.me/ARSH_VC_BOT?startgroup=true"
+                        "Add Me To Group", url="https://t.me/danishbabamusic_bot?startgroup=true"
                     )
                 ]
             ]
