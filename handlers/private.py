@@ -10,8 +10,12 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>👋🏻 Hi {message.from_user.first_name}!</b>
-I am Music Player, an open-source bot that lets you play music in your Telegram groups.
-Use the buttons below to know more about me.""",
+I am powerful bot of VC music Bot..😁🔥
+To play music also add
+
+@danishbabamusic to your Telegram Group..😉.
+
+Use the buttons below to know more about me..""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
