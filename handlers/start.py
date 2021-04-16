@@ -11,11 +11,16 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 async def start_(client: Client, message: Message):
     await message.reply_sticker("CAACAgUAAxkBAAIp9mBtwBBZGywWEmV-WC8gcMArjusuAAKMAgACTp1xV6m-mtC1YTfoHgQ")
     await message.reply_text(
-        f"""<b>Hi {message.from_user.first_name}!
-\nI can play music in your group's voice chat
-Maintained by @HEROGAMERS1 ❤
-\nTo add in your group contact us at @LaylaSupport.
-\nUse the buttons below to know more about me.
+        f"""<b>Hey {message.from_user.first_name}! Hii
+I am powerful VC music Bot..🔥
+I can play songs in your group's VC..😉
+
+To listen songs also add @danishbaba music to your group..
+
+And don't forgot to promote me with all rights..😉
+Otherwise I can't play songs..🙄
+
+Use the buttons below to know more about me..🔥
  </b>""",
       
        
@@ -23,23 +28,23 @@ Maintained by @HEROGAMERS1 ❤
             [
                 [
                     InlineKeyboardButton(
-                        "🌍 Music World", url="https://t.me/GIRLS_AND_BOYS_CHATTING",
+                        "Music World 🌍", url="https://t.me/joinchat/bdctBrN35fNiMGNl",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/LaylaSupport"
+                        "Official Clan 🔥", url="https://t.me/LaylaSupport"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/LaylaList"
+                        "🔊 Channel", url="https://t.me/weopsecretfighters"
                     ),
                     InlineKeyboardButton(
-                        "💾 Source code", url="https://github.com/QueenArzoo/VCPlayBot"
+                        "⚔️ Commands", url="https://telegra.ph/MusicBot-Robot-MusicBot-Robo-03-14"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/VCPlayBot?startgroup=true"
+                        "➕ Add To Your Group ➕", url="https://t.me/danishbabamusic_bot?startgroup=true"
                     )
                 ]
             ]
