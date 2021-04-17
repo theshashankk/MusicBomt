@@ -27,8 +27,8 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="🔥 DANISH OP 🔥",
-                        url="https://t.me/idanishbaba")
+                        text=" ⏤͟͟͞͞★ 𝐌𝐔𝐍𝐍𝐀 𝐓𝐑𝐈𝐏𝐀𝐓𝐇𝐈™ 🇮🇳 ",
+                        url="https://t.me/sedxd")
                    
                 ]
             ]
