@@ -15,7 +15,7 @@ async def start_(client: Client, message: Message):
 I am powerful VC music Bot..🔥
 I can play songs in your group's VC..😉
 
-To listen songs also add @danishbaba music to your group..
+My owner :-× @SEDxD
 
 And don't forgot to promote me with all rights..😉
 Otherwise I can't play songs..🙄
@@ -28,15 +28,15 @@ Use the buttons below to know more about me..🔥
             [
                 [
                     InlineKeyboardButton(
-                        "Music World 🌍", url="https://t.me/joinchat/bdctBrN35fNiMGNl",
+                        "MY CREATOR", url="https://t.me/SEDXD",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "Official Clan 🔥", url="https://t.me/LaylaSupport"
+                        "SUPPORT GROUP", url="https://t.me/X_F0RCE_TEAM"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/weopsecretfighters"
+                        "🔊 Channel", url="https://t.me/X_F0RCED"
                     ),
                     InlineKeyboardButton(
                         "⚔️ Commands", url="https://telegra.ph/MusicBot-Robot-MusicBot-Robo-03-14"
@@ -44,7 +44,7 @@ Use the buttons below to know more about me..🔥
                 ],
                 [
                     InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/danishbabamusic_bot?startgroup=true"
+                        "➕ Add To Your Group ➕", url="https://t.me/Munna_vc_bot?startgroup=true"
                     )
                 ]
             ]
