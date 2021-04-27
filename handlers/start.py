@@ -24,7 +24,7 @@ Use the buttons below to know more about me.""",
                         "💬 Group", url="https://t.me/studyboyzandgirls"
                     ),
                     InlineKeyboardButton(
-                        "Creator", url="https://t.me/SPR4YGOD"
+                        "Creator", url="https://t.me/unknown_soulmate"
                     )
                 ]
             ]
